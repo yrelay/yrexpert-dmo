@@ -9,10 +9,6 @@
 # Aller sur le dépôt
 cd /home/hamid/yrelay/yrexpert-dmo
 
-# Màj version npm
-#npm version patch
-version=`cat 'package.json' | python -c "import json,sys;obj=json.load(sys.stdin);print obj['version'];"`
-
 # Github
 if ! [ -d .git ] ; then
     git init
