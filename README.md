@@ -2,7 +2,6 @@
 
 # yrexpert-dmo
 
-[![npm version][npm-image]][npm-url]
 [![npm downloads][downloads-image]][downloads-url]
 
 yrexpert-dmo est une partition de démonstration pour le système expert *yrexpert* de [Yrelay](http://www.yrelay.fr). Vous pourrez mettre en oeuvre cette partition de démonstration en mettant à jour **DMO** dans le paquet [**yrexpert-terminal**](https://github.com/yrelay/yrexpert-terminal).
@@ -184,8 +183,6 @@ Pour tester cette démonstration suivre la [documentation](https://github.com/yr
 
 
 
-[npm-image]: https://img.shields.io/npm/v/yrexpert-dmo.svg
-[npm-url]: https://npmjs.org/package/yrexpert-dmo
 [downloads-image]: https://img.shields.io/npm/dm/yrexpert-dmo.svg
 [downloads-url]: https://npmjs.org/package/yrexpert-dmo
 
