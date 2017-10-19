@@ -12,9 +12,9 @@ echo "{--- Début du script **ReparerGlobalsDMO.sh**"
 
 ###
 # Récuperer les répertoires d'installation yxp et gtm
-export yxp_dist=$( cd -P -- "$(dirname -- "$(command -v -- "$0")")" && cd ../../.. && pwd -P)
+export yxp_dist=/home/yrelay
 echo "yxp_dist="$yxp_dist
-source $yxp_dist/config/env.conf
+source $yxp_dist/config/env
 
 ###
 # Définir les variable d'environnement de GTM

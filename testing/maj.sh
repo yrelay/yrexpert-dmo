@@ -13,7 +13,7 @@ cd /home/hamid/yrelay/yrexpert-dmo
 if ! [ -d .git ] ; then
     git init
     git remote add origin git@github.com:yrelay/yrexpert-dmo.git
-    echo "Vos fichiers pour la partitions DMO de YRexpert..." > .git/description
+    echo "Les fichiers pour la partitions DMO de votre système expert..." > .git/description
 fi
 git add .
 git commit -m "$version - Màj auto"
