@@ -6,7 +6,7 @@
 #!                                                                            !
 #!----------------------------------------------------------------------------!
 
-#rest> /home/hamid/yrelay/yrexpert-dmo/scripts/ExporterGlobalsDMO.sh
+#test> /home/hamid/yrelay/yrexpert-dmo/scripts/ExporterGlobalsDMO.sh
 source /home/yrelay/partitions/dmo/config/env
 export SHELL=/bin/bash
 #Cela existent pour des raisons de compatibilité
@@ -16,10 +16,10 @@ alias gde="$gtm_dist/mumps -run GDE"
 alias lke="$gtm_dist/mumps -run LKE"
 alias dse="$gtm_dist/mumps -run DSE"
 #$gtm_dist/mumps -dir
-$gtm_dist/mupip EXTRACT -SELECT=* /home/yrelay/tmp/dmo.zwr_$(date +%Y%m%d%H%m%s)
+##$gtm_dist/mupip EXTRACT -SELECT=* /home/yrelay/tmp/dmo.zwr_$(date +%Y%m%d%H%m%s)
 #$gtm_dist/mupip load /home/hamid/yrelay/yrexpert-dmo/globals/arc/dmo.zwr
 #$gtm_dist/mupip EXTRACT -SELECT=* /home/hamid/yrelay/yrexpert-dmo/globals/arc/dmo_$(date +%Y%m%d%H%m%s).zwr
-exit
+
 
 export global=ANSA && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=CPTEUR && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
@@ -28,6 +28,7 @@ export global=PBMANA && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp
 export global=PLEX && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=PLEXI && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=PLEXP && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
+export global=PRONUM && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=QSVARACT && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=QSVARAT && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=QSVARAT1 && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
@@ -60,6 +61,8 @@ export global=RQSNOINT && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/t
 export global=RQSNOLOG && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=RQSPERE && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=RQSQUAL && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
+export global=SCRC && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
+export global=STRUCT && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=TOLEX && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=TOLEXU && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
 export global=TOUNIT && $gtm_dist/mupip EXTRACT -SELECT=$global /home/yrelay/tmp/$global.zwr
