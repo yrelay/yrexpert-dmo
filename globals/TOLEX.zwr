@@ -1,4 +1,4 @@
-GT.M MUPIP EXTRACT UTF-8
+GT.M MUPIP EXTRACT
 05-NOV-2017  20:48:27 ZWR
 ^TOLEX("%")="Mot reserve :^  Repertoire du schema de donnees DMO^^^^^^"
 ^TOLEX("%MACHINE")="Mot reserve cree par Yrelay.^TOTEM:^Represente la machine courante dans les regles^de selection machine.^^^^"
