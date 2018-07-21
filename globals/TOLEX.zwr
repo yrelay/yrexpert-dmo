@@ -1,5 +1,5 @@
 GT.M MUPIP EXTRACT UTF-8
-05-NOV-2017  20:48:27 ZWR
+21-JUL-2018  11:19:16 ZWR
 ^TOLEX("%")="Mot reserve :^  Repertoire du schema de donnees DMO^^^^^^"
 ^TOLEX("%MACHINE")="Mot reserve cree par Yrelay.^TOTEM:^Represente la machine courante dans les regles^de selection machine.^^^^"
 ^TOLEX("A.POUR.CARACTERISTIQUE")="Mot reserve :^  Lien du schema de donnees DMO^^^^^^"
@@ -162,6 +162,7 @@ GT.M MUPIP EXTRACT UTF-8
 ^TOLEX("INDICE")="Mot reserve cree par Yrelay.^^^^^^^"
 ^TOLEX("INDICE.NOTE")="Mot reserve cree par Yrelay.^^DKBMS:^Cracteristique d'un individu SAISIE^^^^"
 ^TOLEX("INDIVIDU.RECEPTEUR")="Mot reserve cree par Yrelay.^^^^^^^"
+^TOLEX("INITIALISER")="^^^^^^^"
 ^TOLEX("INTERFACE")="Mot reserve :^  Repertoire du schema de donnees DMO^^^^^^"
 ^TOLEX("INVERSE.A.POUR.CARACTERISTIQUE")="Mot reserve :^  Lien du schema de donnees DMO^^^^^^"
 ^TOLEX("INVERSE.ABRITE.LE.BIOTOPE")="Mot reserve :^  Lien du schema de donnees DMO^^^^^^"
@@ -250,6 +251,7 @@ GT.M MUPIP EXTRACT UTF-8
 ^TOLEX("MANIERE")="Mot reserve cree par Yrelay.^^MOZART:^Domaine du vocabulaire des gammes. Attribut standard de^l'operation: apparait dans la grille Action par defaut.^^^"
 ^TOLEX("MATERIEL")="Mot reserve cree par Yrelay.^^MOZART:^Attribut standard de la gamme: apparait dans la grille^de garde par defaut.^^^"
 ^TOLEX("MISE.EN.PRODUCTION")="Mot reserve cree par Yrelay.^TXP:^Attribut multivalue affecte sur les ARTICLEs par une^planification, MISE.EN.PRODUCTION(periode)=quantite^a mettre en production.^^^"
+^TOLEX("NOEUD")="^^^^^^^"
 ^TOLEX("NOEUD.DE.PETRI")="Mot reserve cree par Yrelay.^^HEVEA:^Indique si un noeud est de Petri.^^^^"
 ^TOLEX("NOEUD.FINAL")="Mot reserve cree par Yrelay.^^HEVEA:^^^^^"
 ^TOLEX("NOEUD.INITIAL")="Mot reserve cree par Yrelay.^HEVEA:^prmier noeud du reseau semantique^^^^^"
@@ -289,6 +291,7 @@ GT.M MUPIP EXTRACT UTF-8
 ^TOLEX("ORDONNEE")="Mot reserve cree par Yrelay.^^^^^^^"
 ^TOLEX("ORDRE")="Mot reserve :^  Repertoire du schema de donnees DMO^^^^^^"
 ^TOLEX("ORDRE.CONTENU.DANS")="Mot reserve :^  Lien du schema de donnees DMO^^^^^^"
+^TOLEX("PARCOURS")="^^^^^^^"
 ^TOLEX("PASSERELLE.SORTIE")="Mot reserve cree par Yrelay.^Passerelles de sortie suite de valeurs ^^^^^^"
 ^TOLEX("PERE")="Mot reserve cree par Yrelay.^^^^^^^"
 ^TOLEX("PLAN")="Mot reserve cree par Yrelay.^^^^^^^"
