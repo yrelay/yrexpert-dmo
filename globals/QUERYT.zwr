@@ -1,5 +1,5 @@
 GT.M MUPIP EXTRACT UTF-8
-21-JUL-2018  11:19:14 ZWR
+24-JUL-2018  13:00:22 ZWR
 ^QUERYT("AUTEUR","CARL.VON.LINNE","2012/09/08 09H14 DMO 1","EXIST")=""
 ^QUERYT("AUTEUR","CARL.VON.LINNE","2012/09/08 09H14 DMO 1","LIGNE",1)="Carl Linnæus, puis Carl von Linné après son anoblissement, né le 23 mai 1707 à Råshult (Suède) et mort le 10 janvier 1778 à Uppsala (Suède), est un naturaliste suédois qui a jeté les bases du système moderne de la nomenclature binominale. Connu comme le père de la taxinomie moderne, il est également considéré comme l"_$ZCH(226)_$C(128,153)_"un des pères de l"_$ZCH(226)_$C(128,153)_"écologie moderne."
 ^QUERYT("ETAT.RESEAU","DMO.IDENTIFIER.LES.FLEURS.SAUVAGES,PHASE.DE.QUESTIONNEMENT","2012/09/15 20H41 DMO 1","EXIST")=""
